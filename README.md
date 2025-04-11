@@ -49,28 +49,27 @@ Tests login forms for authentication bypass using common and malicious login cre
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name
-Install dependencies:
+2. Install dependencies:
+   ```bash
+   pip install requests
 
-bash
-Copy
-Edit
-pip install requests
-Modify the URLs in each script to match your target web application.
+4. Modify the URLs in each script to match your target web application.
 
-Run each script:
+5. Run each script:
+   ```bash
+   python sql_injection_test.py
+   python xss_test.py
+   python auth_flaws_test.py
 
-bash
-Copy
-Edit
-python sql_injection_test.py
-python xss_test.py
-python auth_flaws_test.py
-⚠️ Disclaimer
+
+## ⚠️ Disclaimer
 This project is for educational and ethical testing purposes only. Do not use these scripts on systems you do not own or have explicit permission to test. Unauthorized access or testing is illegal.
 
-📄 License
+
+## 📄 License
 This project is open-source and available under the MIT License.
 
-🙌 Contributions
+
+## 🙌 Contributions
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
